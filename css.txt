@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+body{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#1b4e32 0% , #b4c7bf 100%);
+}
+.wrapper{
+    background: #1e5537 0% , #b4c7bf 100%;
+    width: 800;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    color: aliceblue;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.members{
+    display: flex;
+}
+.team-mem{
+    margin: 8px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 50px;
+}
+h4{
+    text-align: center;
+    font-size: 18px;
+    margin: 7px;
+    font-style: italic;
+    color: aliceblue;
+    
+}
+p{
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+}
